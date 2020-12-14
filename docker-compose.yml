@@ -21,7 +21,7 @@ mysql:
 wordpress:
   image: wordpress
   ports:
-    - '9001:80'
+    - '9000:9000'
   volumes:
     - ./wordpress:/var/www/html
   environment:
